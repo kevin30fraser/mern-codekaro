@@ -1,0 +1,74 @@
+.container {
+    width: 400px;
+    margin: 80px auto;
+    text-align: center;
+}
+.icon{
+    font-size: 70px;
+}
+.flex {
+    display: flex;
+    gap: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid lightgray;
+    border-radius: 12px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid royalblue;
+}
+
+.btn{
+    width: 100%;
+    border: none;
+    border-radius: 12px;
+    padding: 16px 30px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.usercontainer{
+    width: 400px;
+    margin: auto;
+}
+
+.bg{
+    width: 100%;
+    padding: 16px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.alert{
+    transition: .4s;
+    padding: 16px 24px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    position: absolute;
+    right: 5px;
+    top: 0;
+    margin: 10px 0;
+    
+}
+
+.d-none{
+    display: none;
+}

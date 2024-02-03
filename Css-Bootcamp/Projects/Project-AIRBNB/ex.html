@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hover Event Example</title>
+  <style>
+    /* Add your styles here */
+    .hover-element {
+      width: 100px;
+      height: 100px;
+      background-color: lightblue;
+    }
+  </style>
+</head>
+<body>
+
+<div class="hover-element" id="myElement">Hover me!</div>
+
+<script>
+  // Get the element by its ID
+  var element = document.getElementById('myElement');
+
+  // Add mouseenter event listener
+  element.addEventListener('mouseenter', function() {
+    // Code to be executed when the mouse enters the element
+    console.log('Mouse entered!');
+    // Add your additional logic or actions here
+  });
+
+  // Add mouseleave event listener
+  element.addEventListener('mouseleave', function() {
+    // Code to be executed when the mouse leaves the element
+    console.log('Mouse left!');
+    // Add your additional logic or actions here
+  });
+</script>
+
+</body>
+</html>

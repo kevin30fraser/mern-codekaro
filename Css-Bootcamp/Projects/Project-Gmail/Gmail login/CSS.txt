@@ -1,0 +1,30 @@
+h1,h4,h6{
+  color:white;
+  text-align:center;
+  position:relative;
+}
+body{
+  background-color:black;
+}
+div{
+  text-align:center;
+}
+.para{
+  color:blue;
+  text-align:center;
+  position:relative;
+  right:40px;
+}
+.para2{
+  color:white;
+}
+.para2 p span{
+  color:blue;
+  position:relative;
+  right:148px;
+}
+.para3{
+  color:blue;
+  position:relative;
+  right:135px;
+}

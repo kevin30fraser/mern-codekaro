@@ -1,0 +1,20 @@
+<body>
+  <h1>Google</h1>
+  <h4>Sign In</h4>
+  <h6>to continue to gmail</h6>
+  <div>
+    <input type="text" placeholder="Email or Phone">
+  </div>
+  <div class="para">
+    <p>Forgot Email?</p>
+  </div>
+  <div class="para2">
+    <p>Not your computer? Use Guest mode to sign in privately<br><span>Learnmore</span></p>
+  </div>
+  <br>
+  <br>
+  <div class="para3">
+    <p>Create Account</p>
+  </div>
+ 
+</body>

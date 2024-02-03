@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;800&display=swap');
+
+body{
+    margin: 0;
+    font-family:'Poppins', sans-serif;
+}
+
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    
+}
+
+.container-1{
+    width: 20%;
+    background-color: black;
+    padding: 1vmax;
+    
+}
+
+.container-2{
+    width: 80%;
+    background-color: white;
+    padding: 2vmax 0;
+    position: relative;
+}
+
+.chatflex{
+    display: flex;
+    gap: 30px;
+}
+.chat{
+    height: 30px;
+    border: 1px solid lightgray;
+    border-radius:4px;
+    padding: 2px 45px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    
+ 
+}
+
+.sidebar{
+    height: 20px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+   padding: 8px;
+}
+
+.gpt-3{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    padding: 0 3rem;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+}
+
+.gpt-4{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.gpt{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: lightgray;
+    width: 350px;
+    border-radius: 8px;
+    margin:  auto;
+    padding: 0.3vmax 0.2vmax;
+
+}
+
+.desc{
+    font-size: 16px;
+    font-weight: 450;
+}
+
+.title{
+    font-size: 2.3vmax;
+    font-weight: 520;
+    color: lightgray;
+    text-align: center;
+    margin-top: 127px;
+}
+

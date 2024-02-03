@@ -1,0 +1,29 @@
+.container{
+    width: 500px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+input{
+    width: 100%;
+    border: 1px solid lightgray;
+    border-radius: 12px;
+    padding: 15px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+input:focus{
+    outline: none;
+    border: 1px solid royalblue;
+}
+
+.btn{
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    padding: 14px 30px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}

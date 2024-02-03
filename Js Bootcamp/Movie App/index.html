@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="nav-bar">
+        <a href="#"><img src="images/logo-d-plus.svg" class="logo-img"></a>
+        <div class="search-flex">
+            <input type="text" placeholder="Search The Movie " id="movie" onchange="search()">
+            <button class="btn" onclick="search()"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+              </svg></button>
+        </div>
+    </nav>
+
+    <div id="notfound" class="d-none">
+        <h1 class="icon">🙁</h1>
+        <h2 class="nf-title">Couldn't Find:<span id="name"></span></h2>
+        <p id="nf-desc">Try searching for something else or try with different spelling</p>
+    </div>
+
+    <div class="moviecontainer d-none" id="found">
+       <div class="contents">
+        <h1 id="title">The Avengers</h1>
+        <p id="Desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Release Date:<span id="date"></span></p>
+        <p>Director:<span id="director"></span></p>
+        <p>Actor:<span id="actor"></span></p>
+        <p>Collection:<span id="Collection"></span></p>
+        <p>Awards:<span id="awards"></span></p>
+        <p>IMDB rating:<span id="Rating"></span></p>
+        <p>Writer:<span id="writer"></span></p> 
+        <p>Genre:<span id="genre"></span></p>
+       </div>
+       <img src="https://m.media-amazon.com/images/M/MV5BMTYzOTE2NjkxN15BMl5BanBnXkFtZTgwMDgzMTg0MzE@._V1_SX300.jpg"class="poster">
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>

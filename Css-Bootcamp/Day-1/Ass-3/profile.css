@@ -1,0 +1,23 @@
+.main{
+    width: 400px;
+    border:1px solid lightgray;
+    border-radius: 5px;
+    margin: 10px auto;
+    padding:10px 50px;
+
+
+}
+
+.footer{
+    width:400px;
+    border-top:1px solid lightgray;
+    margin: 10px auto;
+     padding:10px 50px;
+
+}
+
+.image{
+    
+    border-radius: 50%;
+    object-fit: cover;
+}
